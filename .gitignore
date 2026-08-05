@@ -1,0 +1,7 @@
+.DS_Store
+
+# Real cast data never goes in git. It rates named people on ability.
+# Use tools/performers.example.csv as a template and keep your copy local.
+PerformerProfile.csv
+tools/PerformerProfile.csv
+tools/GameCatalogue.csv

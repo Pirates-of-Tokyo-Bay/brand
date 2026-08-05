@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.piratesoftokyobay.com/about#webpage",
+      "url": "https://www.piratesoftokyobay.com/about",
+      "name": "団体概要・活動実績 / About Us | Pirates of Tokyo Bay",
+      "description": "The history, mission, and team behind Tokyo's premier English and Japanese improv comedy group. Founded in 2010. 東京・恵比寿の即興コメディグループの歩み。",
+      "inLanguage": [
+        "ja",
+        "en"
+      ],
+      "about": {
+        "@type": "PerformingGroup",
+        "@id": "https://www.piratesoftokyobay.com/#organization",
+        "name": "Pirates of Tokyo Bay",
+        "url": "https://www.piratesoftokyobay.com",
+        "foundingDate": "2010",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+          "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+          "https://www.wikidata.org/wiki/Q138448067",
+          "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+          "https://maps.google.com/?cid=6581378796342356083",
+          "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+          "https://github.com/Pirates-of-Tokyo-Bay",
+          "https://www.instagram.com/piratestokyo/",
+          "https://x.com/piratestokyo",
+          "https://www.tiktok.com/@piratestokyo",
+          "https://www.facebook.com/TokyoImprov",
+          "https://www.youtube.com/TokyoImprov",
+          "https://www.linkedin.com/company/2854519",
+          "https://medium.com/@piratestokyo",
+          "https://note.com/piratestokyo",
+          "https://www.tripadvisor.com/Attraction_Review-d15739661",
+          "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+          "https://www.reddit.com/r/tokyocomedy/",
+          "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+        ]
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Pirates of Tokyo Bay",
+        "url": "https://www.piratesoftokyobay.com"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.piratesoftokyobay.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://www.piratesoftokyobay.com/about"
+        }
+      ]
+    }
+  ]
+}

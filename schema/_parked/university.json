@@ -1,0 +1,262 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "PerformingGroup",
+      "@id": "https://www.piratesoftokyobay.com/#organization",
+      "name": "Pirates of Tokyo Bay",
+      "alternateName": "パイレーツ・オブ・東京湾",
+      "url": "https://www.piratesoftokyobay.com",
+      "foundingDate": "2010",
+      "award": "Peatix Community Award 2026: Creative Arts Community (クリエイティブ・アートコミュニティ賞)",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://static1.squarespace.com/static/51486988e4b0d1d31cb2d343/t/696ac500bc0e3720725145ae/1768604929009/pirates-of-tokyo-bay-logo-icon.jpeg"
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+        "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+        "https://www.wikidata.org/wiki/Q138448067",
+        "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+        "https://maps.google.com/?cid=6581378796342356083",
+        "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+        "https://github.com/Pirates-of-Tokyo-Bay",
+        "https://www.instagram.com/piratestokyo/",
+        "https://x.com/piratestokyo",
+        "https://www.tiktok.com/@piratestokyo",
+        "https://www.facebook.com/TokyoImprov",
+        "https://www.youtube.com/TokyoImprov",
+        "https://www.linkedin.com/company/2854519",
+        "https://medium.com/@piratestokyo",
+        "https://note.com/piratestokyo",
+        "https://www.tripadvisor.com/Attraction_Review-d15739661",
+        "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+        "https://www.reddit.com/r/tokyocomedy/",
+        "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.piratesoftokyobay.com/university#course-list",
+      "name": "インプロクラス（全3レベル・東京）/ Improv University: Improv Classes in Tokyo",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@id": "https://www.piratesoftokyobay.com/university#level-1" } },
+        { "@type": "ListItem", "position": 2, "item": { "@id": "https://www.piratesoftokyobay.com/university#level-2" } },
+        { "@type": "ListItem", "position": 3, "item": { "@id": "https://www.piratesoftokyobay.com/university#level-3" } }
+      ]
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.piratesoftokyobay.com/university#level-1",
+      "name": "レベル1：インプロの基礎 / Level 1: Learn the Fundamentals",
+      "description": "即興コメディの入門クラス（全4回・週1回・各2時間、木曜19:10〜21:10、新宿）。「イエス・アンド」の基本、シーンの作り方、パートナーとの信頼関係の築き方を楽しく学べます。経験不要、初心者歓迎。英語で実施、日本語サポートあり。修了後は9月27日のパイレーツ本公演でデビュー。Your starting point for improv in Tokyo: Yes And, building scenes from nothing, and connecting with your scene partners over 4 weekly sessions in Shinjuku. Graduates debut at the main Pirates show on September 27. Taught in English with full Japanese support. No experience needed.",
+      "url": "https://www.piratesoftokyobay.com/university",
+      "inLanguage": ["ja", "en"],
+      "provider": { "@id": "https://www.piratesoftokyobay.com/#organization" },
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "price": "25000",
+        "priceCurrency": "JPY",
+        "availability": "https://schema.org/InStock",
+        "validThrough": "2026-08-20",
+        "url": "https://www.piratesoftokyobay.com/class-register"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Onsite",
+        "courseWorkload": "PT8H",
+        "startDate": "2026-08-27",
+        "endDate": "2026-09-17",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "repeatCount": 4,
+          "repeatFrequency": "Weekly",
+          "byDay": "https://schema.org/Thursday",
+          "startTime": "19:10",
+          "endTime": "21:10",
+          "duration": "PT2H"
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Theater Brats (B1F Side Entrance)",
+          "sameAs": "http://www.theater-brats.com/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1-34-16 Shinjuku, Shimizu Building B1F",
+            "addressLocality": "Shinjuku-ku",
+            "addressRegion": "Tokyo",
+            "postalCode": "160-0022",
+            "addressCountry": "JP"
+          }
+        },
+        "instructor": [
+          {
+            "@type": "Person",
+            "name": "Bill Reilly",
+            "alternateName": "ビル・ライリー",
+            "url": "https://www.piratesoftokyobay.com/bill-reilly"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.piratesoftokyobay.com/university#level-2",
+      "name": "レベル2：シーンの技術 / Level 2: The Who, What & Where of Scenes",
+      "description": "シーンをより深く、より面白くする技術を学ぶ中級クラス（全5回・週1回・各2時間）。パターンの発見と展開、キャラクターの動機づけ、インスピレーションの見つけ方。レベル1修了者対象。日本語と英語で開講。Scene technique for Tokyo improvisers: heightening patterns, character motivation, and creative inspiration on demand. Level 1 completion required. Taught in English and Japanese.",
+      "url": "https://www.piratesoftokyobay.com/university",
+      "inLanguage": ["ja", "en"],
+      "provider": { "@id": "https://www.piratesoftokyobay.com/#organization" },
+      "coursePrerequisites": [
+        { "@id": "https://www.piratesoftokyobay.com/university#level-1" }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "price": "25000",
+        "priceCurrency": "JPY",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.piratesoftokyobay.com/university"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Onsite",
+        "courseWorkload": "PT10H",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "repeatCount": 5,
+          "repeatFrequency": "Weekly",
+          "duration": "PT2H"
+        },
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tokyo",
+            "addressCountry": "JP"
+          }
+        },
+        "instructor": [
+          { "@type": "Person", "name": "Mike Staffa" },
+          { "@type": "Person", "name": "Bill Reilly" },
+          { "@type": "Person", "name": "Christiane Brew" }
+        ]
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.piratesoftokyobay.com/university#level-3",
+      "name": "レベル3：上級キャラクター＆卒業公演 / Level 3: Advanced Characters + Student Show",
+      "description": "最終レベル（全5回・週1回・各2時間、卒業公演含む）。高度なキャラクターワーク、感情表現、ステージクラフトを学び、クラスメイトと東京でライブ卒業公演を行います。レベル2修了者対象。日本語と英語で開講。The final level: deep character work, emotional range, and stagecraft, building toward a live student showcase in Tokyo. Level 2 completion required. Taught in English and Japanese.",
+      "url": "https://www.piratesoftokyobay.com/university",
+      "inLanguage": ["ja", "en"],
+      "provider": { "@id": "https://www.piratesoftokyobay.com/#organization" },
+      "coursePrerequisites": [
+        { "@id": "https://www.piratesoftokyobay.com/university#level-2" }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "price": "35000",
+        "priceCurrency": "JPY",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.piratesoftokyobay.com/university"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Onsite",
+        "courseWorkload": "PT10H",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "repeatCount": 5,
+          "repeatFrequency": "Weekly",
+          "duration": "PT2H"
+        },
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tokyo",
+            "addressCountry": "JP"
+          }
+        },
+        "instructor": [
+          { "@type": "Person", "name": "Mike Staffa" },
+          { "@type": "Person", "name": "Bill Reilly" },
+          { "@type": "Person", "name": "Christiane Brew" }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.piratesoftokyobay.com/university#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "即興の経験がなくても参加できますか？ / Do I need improv experience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "レベル1は完全な初心者向けです。経験は一切不要です。必要なのは楽しむ気持ちだけ！Level 1 is designed for complete beginners. No experience required. Just bring your enthusiasm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "日本語か英語、片方しかわからなくても大丈夫ですか？ / What if I only speak Japanese or only speak English?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大丈夫です！クラスはメンバーの言語構成に合わせて柔軟に対応します。日本語だけ、英語だけの方も安心してご参加ください。Absolutely. Classes adapt to the language composition of the group. You're welcome whether you speak Japanese only, English only, or both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "レベルをスキップできますか？ / Can I skip a level?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "講師の判断により可能です。他のインプロトレーニングの経験がある方は、info@japancomedy.com までご相談ください。Possible at the instructor's discretion. If you have prior improv training, contact us at info@japancomedy.com to discuss placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "全レベル修了でパイレーツに入れますか？ / Will completing all levels make me a member?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "クラスの修了だけではメンバーにはなれませんが、オーディション開催時にクラスで得たスキルと経験は大きなアドバンテージになります。Completing classes doesn't automatically make you a member, but the skills and experience you gain will prepare you well for auditions when we hold them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "お支払い方法は？ / How do I pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "銀行振込でお支払いいただけます。クラス開始の1週間前までに全額をお振り込みください。振込先は登録後にメールでご案内します。法人研修は請求書発行後30日以内のお支払いです。Payment is by bank transfer (furikomi). Full tuition is due at least 1 week before the course begins. Bank details are sent by email after registration. Corporate training is invoiced with 30-day payment terms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "返金はできますか？ / What is the refund policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "コース開始後の返金・欠席分の返金はいたしかねます。Refunds for cancellation or missed classes will not be given after the course has begun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "安全やハラスメントについて / Safety and inclusivity",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "パイレーツのクラスではいかなるハラスメント・いじめも固く禁じています。すべての性別、アイデンティティ、性的指向、国籍、人種、宗教の方を歓迎します。We have a zero-tolerance policy for any form of harassment or bullying. We are 100% inclusive of all genders, identities, orientations, races, religions, and abilities."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.piratesoftokyobay.com/university#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.piratesoftokyobay.com" },
+        { "@type": "ListItem", "position": 2, "name": "Improv Classes", "item": "https://www.piratesoftokyobay.com/university" }
+      ]
+    }
+  ]
+}

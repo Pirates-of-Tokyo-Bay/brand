@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.piratesoftokyobay.com/business#service",
+      "name": "Corporate Improv Training & Team Building (Tokyo)",
+      "serviceType": "Applied Improvisation Training",
+      "provider": {
+        "@type": "PerformingGroup",
+        "@id": "https://www.piratesoftokyobay.com/#organization",
+        "name": "Pirates of Tokyo Bay",
+        "url": "https://www.piratesoftokyobay.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://static1.squarespace.com/static/51486988e4b0d1d31cb2d343/t/696ac500bc0e3720725145ae/1768604929009/pirates-of-tokyo-bay-logo-icon.jpeg"
+        },
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Featured Instructor: GLOBIS Unlimited",
+          "url": "https://globisunlimited.com/course/improv-techniques-for-business/",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "GLOBIS University",
+            "url": "https://globis.ac.jp/"
+          }
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+          "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+          "https://www.wikidata.org/wiki/Q138448067",
+          "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+          "https://maps.google.com/?cid=6581378796342356083",
+          "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+          "https://github.com/Pirates-of-Tokyo-Bay",
+          "https://www.instagram.com/piratestokyo/",
+          "https://x.com/piratestokyo",
+          "https://www.tiktok.com/@piratestokyo",
+          "https://www.facebook.com/TokyoImprov",
+          "https://www.youtube.com/TokyoImprov",
+          "https://www.linkedin.com/company/2854519",
+          "https://medium.com/@piratestokyo",
+          "https://note.com/piratestokyo",
+          "https://www.tripadvisor.com/Attraction_Review-d15739661",
+          "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+          "https://www.reddit.com/r/tokyocomedy/",
+          "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+        ]
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Tokyo"
+      },
+      "description": "English and Japanese corporate training in Tokyo using Applied Improv to improve Psychological Safety, Active Listening, and Team Building. Trusted by GLOBIS University and Embassies. 即興（インプロ）を活用した体験型コミュニケーション研修。イエス・アンドの精神で心理的安全性とコミュニケーション能力を高めるチームビルディング研修・コミュニケーション研修。日本語・英語対応。",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "100000",
+        "priceCurrency": "JPY",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.piratesoftokyobay.com/business"
+      },
+      "serviceOutput": [
+        "Psychological Safety",
+        "Cross-Cultural Communication",
+        "Active Listening Skills",
+        "Team Building"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "研修は何名から対応可能ですか？/ What is the minimum group size for a workshop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1名様から対応可能です（経営者向け1on1トレーニングの実績もございます）。最大50名程度までのグループに対応しています。From 1 person (we have experience with 1-on-1 CEO training) up to groups of approximately 50."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "研修の所要時間はどれくらいですか？/ How long is a typical training session?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1回のセッションは最低3時間です。単発のアイスブレイク型研修も可能ですが、最も効果的なのは週1回・3時間のセッションを3〜6週間継続するプログラムです。Each session is a minimum of 3 hours. A single session works well as an icebreaker, but we recommend a recurring weekly program of 3–6 weeks for lasting results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "研修は英語と日本語のどちらで実施できますか？/ Can workshops be conducted in English, Japanese, or both?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "英語のみ、日本語のみ、または両言語を組み合わせた形式に対応しています。チームの構成やニーズに合わせて柔軟にカスタマイズ可能です。Workshops can be delivered in English only, Japanese only, or a mix of both languages. We adapt to your team's composition and needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "研修は自社オフィスで実施できますか？/ Can you conduct the workshop at our office?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、出張研修に対応しています。お客様のオフィス、会議室、イベントスペースなど、ご希望の場所で実施可能です。オンラインでの実施も承っています。Yes, we come to you. Workshops can be held at your office, conference room, event space, or any venue of your choice. Online sessions are also available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "研修の料金はどのくらいですか？/ How much does corporate training cost in Tokyo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "料金はプログラムの内容、参加人数、回数によって異なりますが、10万円（税別）からご案内しています。詳しくはお気軽にお問い合わせください。無料でお見積もりいたします。Pricing depends on program scope, group size, and number of sessions, starting from ¥100,000 (before tax). Contact us for a free consultation and quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "インプロ研修にはどのような効果がありますか？/ What results do companies see from improv-based training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "心理的安全性の向上、傾聴力の強化、プレゼンテーションスキルの改善、異文化コミュニケーションの円滑化といった効果が報告されています。特に多言語・多文化チームでの信頼構築や、想定外の状況への即応力を高めたいチームに効果的です。Companies report improved psychological safety, better active listening, stronger presentation skills, and more effective cross-cultural communication. The training is particularly effective for teams that need to collaborate across languages and cultures, think on their feet, and build trust quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "短時間（1〜2時間）の研修も可能ですか？/ Can you do a shorter workshop (1-2 hours)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、可能です。2〜3時間の半日プログラムが最も人気ですが、チームオフサイトやキックオフイベント向けに1〜2時間のアイスブレイク型セッションも実施しています。短時間でもインプロの楽しさとチームビルディング効果を体験いただけます。Yes. While our most popular format is a 2-3 hour half-day session, we also offer focused 1-2 hour icebreaker sessions designed for team offsites and kickoff events. Even a short session delivers the fun and team-building impact of improv."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.piratesoftokyobay.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Training",
+          "item": "https://www.piratesoftokyobay.com/business"
+        }
+      ]
+    }
+  ]
+}

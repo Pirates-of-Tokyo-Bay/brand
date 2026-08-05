@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Private Improv Comedy Shows & School Workshops",
+      "serviceType": "Entertainment and Education",
+      "provider": {
+        "@type": "PerformingGroup",
+        "@id": "https://www.piratesoftokyobay.com/#organization",
+        "name": "Pirates of Tokyo Bay",
+        "url": "https://www.piratesoftokyobay.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://static1.squarespace.com/static/51486988e4b0d1d31cb2d343/t/696ac500bc0e3720725145ae/1768604929009/pirates-of-tokyo-bay-logo-icon.jpeg"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+          "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+          "https://www.wikidata.org/wiki/Q138448067",
+          "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+          "https://maps.google.com/?cid=6581378796342356083",
+          "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+          "https://github.com/Pirates-of-Tokyo-Bay",
+          "https://www.instagram.com/piratestokyo/",
+          "https://x.com/piratestokyo",
+          "https://www.tiktok.com/@piratestokyo",
+          "https://www.facebook.com/TokyoImprov",
+          "https://www.youtube.com/TokyoImprov",
+          "https://www.linkedin.com/company/2854519",
+          "https://medium.com/@piratestokyo",
+          "https://note.com/piratestokyo",
+          "https://www.tripadvisor.com/Attraction_Review-d15739661",
+          "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+          "https://www.reddit.com/r/tokyocomedy/",
+          "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+        ]
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Tokyo"
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 35.6479,
+          "longitude": 139.7078
+        },
+        "geoRadius": "50000"
+      },
+      "description": "Professional English and Japanese improv comedy for corporate events, school workshops, and private parties in Tokyo. 企業研修、学校公演、イベント余興の出張公演を承ります。",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Corporate Clients, Educational Institutions, Event Planners"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.piratesoftokyobay.com/private-shows",
+        "availability": "https://schema.org/InStock",
+        "description": "Custom quotes available upon request."
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.piratesoftokyobay.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Private Shows",
+          "item": "https://www.piratesoftokyobay.com/private-shows"
+        }
+      ]
+    }
+  ]
+}

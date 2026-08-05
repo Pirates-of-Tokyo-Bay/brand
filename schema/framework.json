@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Course",
+      "name": "Improv Leadership and Management Workshop | The Framework",
+      "description": "A leadership masterclass for improv group leaders on organizational strategies and administrative systems. 劇団運営やクリエイティブチームのためのリーダーシップ・ワークショップ（英語のみ）。",
+      "provider": {
+        "@type": "PerformingGroup",
+        "@id": "https://www.piratesoftokyobay.com/#organization",
+        "name": "Pirates of Tokyo Bay",
+        "url": "https://www.piratesoftokyobay.com",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+          "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+          "https://www.wikidata.org/wiki/Q138448067",
+          "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+          "https://maps.google.com/?cid=6581378796342356083",
+          "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+          "https://github.com/Pirates-of-Tokyo-Bay",
+          "https://www.instagram.com/piratestokyo/",
+          "https://x.com/piratestokyo",
+          "https://www.tiktok.com/@piratestokyo",
+          "https://www.facebook.com/TokyoImprov",
+          "https://www.youtube.com/TokyoImprov",
+          "https://www.linkedin.com/company/2854519",
+          "https://medium.com/@piratestokyo",
+          "https://note.com/piratestokyo",
+          "https://www.tripadvisor.com/Attraction_Review-d15739661",
+          "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+          "https://www.reddit.com/r/tokyocomedy/",
+          "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+        ]
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseWorkload": "PT3H",
+        "instructor": {
+          "@type": "Person",
+          "name": "Mike Staffa"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "125.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.piratesoftokyobay.com/framework"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.piratesoftokyobay.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Improv Resources",
+          "item": "https://www.piratesoftokyobay.com/improv-resources"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The Framework Workshop",
+          "item": "https://www.piratesoftokyobay.com/framework"
+        }
+      ]
+    }
+  ]
+}

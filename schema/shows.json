@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "PerformingGroup",
+      "@id": "https://www.piratesoftokyobay.com/#organization",
+      "name": "Pirates of Tokyo Bay",
+      "alternateName": "パイレーツ・オブ・東京湾",
+      "url": "https://www.piratesoftokyobay.com",
+      "foundingDate": "2010",
+      "award": "Peatix Community Award 2026: Creative Arts Community (クリエイティブ・アートコミュニティ賞)",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://static1.squarespace.com/static/51486988e4b0d1d31cb2d343/t/696ac500bc0e3720725145ae/1768604929009/pirates-of-tokyo-bay-logo-icon.jpeg"
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+        "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+        "https://www.wikidata.org/wiki/Q138448067",
+        "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+        "https://maps.google.com/?cid=6581378796342356083",
+        "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+        "https://github.com/Pirates-of-Tokyo-Bay",
+        "https://www.instagram.com/piratestokyo/",
+        "https://x.com/piratestokyo",
+        "https://www.tiktok.com/@piratestokyo",
+        "https://www.facebook.com/TokyoImprov",
+        "https://www.youtube.com/TokyoImprov",
+        "https://www.linkedin.com/company/2854519",
+        "https://medium.com/@piratestokyo",
+        "https://note.com/piratestokyo",
+        "https://www.tripadvisor.com/Attraction_Review-d15739661",
+        "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+        "https://www.reddit.com/r/tokyocomedy/",
+        "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+      ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://www.piratesoftokyobay.com/shows#venue-what-the-dickens",
+      "name": "What the Dickens!",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Roob 6 Bldg 4F, 1-13-3 Ebisunishi",
+        "addressLocality": "Shibuya-ku",
+        "addressRegion": "Tokyo",
+        "postalCode": "150-0021",
+        "addressCountry": "JP"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.64766,
+        "longitude": 139.7081
+      },
+      "maximumAttendeeCapacity": 90
+    },
+    {
+      "@type": "EventSeries",
+      "@id": "https://www.piratesoftokyobay.com/shows#monthly-show",
+      "url": "https://www.piratesoftokyobay.com/shows",
+      "name": "日本語と英語の即興コメディ 月例公演（恵比寿）| Pirates of Tokyo Bay Monthly Improv Comedy Show",
+      "description": "毎月日曜日、恵比寿のWhat the Dickens!で開催する日本語と英語の即興コメディライブ。台本なし、お客様のお題からその場で作り上げます。チケット2,500円（1ドリンク付）。English and Japanese improv comedy every month at What the Dickens! in Ebisu, 1 stop from Shibuya. Everything is created live from your suggestions. 1st drink free!",
+      "image": [
+        "https://images.squarespace-cdn.com/content/v1/51486988e4b0d1d31cb2d343/2974e858-33ef-42fe-9b39-3dd32e914a32/comedy-show-audience-watching-stage-ebisu.jpg"
+      ],
+      "inLanguage": [
+        "ja",
+        "en"
+      ],
+      "eventSchedule": {
+        "@type": "Schedule",
+        "startDate": "2026-01-25",
+        "endDate": "2026-11-29",
+        "repeatFrequency": "P1M",
+        "startTime": "19:30:00",
+        "endTime": "21:30:00",
+        "scheduleTimezone": "Asia/Tokyo"
+      },
+      "location": {
+        "@id": "https://www.piratesoftokyobay.com/shows#venue-what-the-dickens"
+      },
+      "performer": {
+        "@id": "https://www.piratesoftokyobay.com/#organization"
+      },
+      "organizer": {
+        "@id": "https://www.piratesoftokyobay.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://fienta.com/o/23134",
+        "price": "2500",
+        "priceCurrency": "JPY",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.piratesoftokyobay.com/shows#teaser-video",
+      "name": "Pirates of Tokyo Bay Improv Comedy Teaser",
+      "description": "Looking for live comedy near you? Watch our show teaser featuring the audience, performance style, and quick cast interviews! Experience the vibe of Tokyo's premier English and Japanese improv comedy show in Ebisu. 1st drink free!",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KpScnwm7xAc/maxresdefault.jpg",
+      "uploadDate": "2026-02-27T08:00:00+09:00",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KpScnwm7xAc"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.piratesoftokyobay.com/shows#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "事前予約は必要ですか？/ Do I need to book in advance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "事前予約をお勧めします。席が埋まるのが早いため、当日券の保証はできません。オンラインでご購入いただくと安心です。チケットには1ドリンクが付いています！ We strongly recommend booking in advance as seats fill up fast and walk-in availability is not guaranteed. Booking online takes 2 minutes and your ticket includes your first drink free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "日本語（または英語）しかわからなくても楽しめますか？/ What if I only speak Japanese or only speak English?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "もちろんです！ ジェスチャー、表情、「デタラメ語」を多用するので、どちらか一方の言語しかわからなくても十分楽しめます。実際、片方の言語しか話せないお客様も毎回たくさんいらっしゃいます。 Yes, absolutely. We use physical comedy, facial expressions, and gibberish so that even if you only understand one language, you will still laugh. We have audience members who speak only Japanese or only English at every single show."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "デートや職場のグループ、観光客にも向いていますか？/ Is it good for a date night, office group, or tourists?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "すべてにおすすめです！ デートにはサプライズ感のある特別な夜を。職場グループには会話が弾む共通体験を。旅行者の方には東京ならではのユニークな思い出を。どんな組み合わせのグループでも楽しめるよう設計されています。 All three. Date nights love the unpredictable energy and relaxed pub setting. Office groups get a shared experience that sparks conversation for weeks. Tourists get something genuinely unique to Tokyo that they can't find anywhere else. The show is designed to work for any mix of people."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ショーはどのくらいの時間ですか？/ How long is the show?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "開場は午後7時（19:00）、開演は午後7時30分（19:30）、終演は午後9時30分頃（21:30）です。約1時間45分のショーです。 Doors open at 7:00pm, the show starts at 7:30pm and ends at approximately 9:30pm. The performance itself is around 1 hour 45 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "服装の決まりはありますか？/ Is there a dress code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ドレスコードはありません。普段着でお越しください。カジュアルなパブの雰囲気ですので、リラックスしてお楽しみいただけます。 No dress code at all. Come as you are. It's a casual British pub, jeans and a t-shirt are perfectly fine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "当日はどんな流れですか？/ What should I expect on the night?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "開場後はお好きな席にお座りいただき、1ドリンク無料サービスをご利用ください。開演前にバーでフード・ドリンクを追加注文することもできます。ショー中は観客の皆様からお題をいただきながら進行します——参加が楽しさの秘訣です！ Arrive from 7:00pm, grab your free drink, and find a seat. You can order food and additional drinks from the bar before and during the show. During the performance the cast will take suggestions from the audience. The more you participate, the more fun it gets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "観客参加型ですか？参加は必須ですか？/ Is it audience participation? Do I have to participate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、観客参加型のショーです！お客様からいただいたお題をもとに、キャストがその場でシーンを作り上げます。お題は英語でも日本語でもOK。ただし、ステージに上がっていただく必要はありません。声を出してお題を出すだけで参加完了です。もちろん、見ているだけでも十分楽しめます。 Yes, the show is fully audience-driven! The cast creates every scene from suggestions you shout out — in English or Japanese. You never have to go on stage. Just call out an idea when the cast asks, and you're part of the show. Of course, you can also just sit back and enjoy."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.piratesoftokyobay.com/shows#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.piratesoftokyobay.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shows",
+          "item": "https://www.piratesoftokyobay.com/shows"
+        }
+      ]
+    }
+  ]
+}

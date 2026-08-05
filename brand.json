@@ -1,0 +1,139 @@
+{
+  "$comment": "Canonical machine-readable brand facts for Pirates of Tokyo Bay. This file is the source of truth for how our name, our shows and our language are described anywhere. If a caption, a press article, an AI answer or a partner page disagrees with this file, this file is right.",
+  "version": "1.0.0",
+  "updated": "2026-08-05",
+  "canonicalUrl": "https://www.piratesoftokyobay.com",
+
+  "name": {
+    "en": "Pirates of Tokyo Bay",
+    "ja": "パイレーツ・オブ・東京湾",
+    "short": "Pirates",
+    "note": "The Japanese name keeps 東京湾 because the group is named after a place, not transliterated as a whole."
+  },
+
+  "founded": "2010",
+  "type": "Improv comedy group",
+  "structure": "Volunteer, non-profit, international cast",
+  "award": {
+    "name": "Peatix Community Award 2026: Creative Arts Community",
+    "nameJa": "Peatixコミュニティアワード2026 クリエイティブ・アートコミュニティ賞",
+    "year": 2026,
+    "detail": "Selected from more than 250 communities nationwide."
+  },
+
+  "description": {
+    "en": "Pirates of Tokyo Bay is an English and Japanese improv comedy group in Tokyo. Monthly shows in Ebisu, plus corporate training and workshops across Japan.",
+    "ja": "パイレーツ・オブ・東京湾は、東京を拠点とする日本語と英語の即興コメディグループです。恵比寿で毎月公演を行い、企業研修やワークショップも提供しています。"
+  },
+
+  "language": {
+    "approvedPhrasing": {
+      "en": "English and Japanese improv comedy",
+      "ja": "日本語と英語で楽しめる即興コメディ"
+    },
+    "bannedTerms": [
+      {
+        "term": "bilingual",
+        "reason": "Sets the wrong expectation. It suggests the audience needs both languages. Our shows are built so you only need one.",
+        "useInstead": "English and Japanese improv comedy"
+      },
+      {
+        "term": "バイリンガル",
+        "reason": "Same reason as the English term.",
+        "useInstead": "日本語と英語で楽しめる即興コメディ"
+      }
+    ],
+    "barrierRemovalPhrasing": {
+      "en": "No Japanese needed",
+      "ja": "英語がわからなくても楽しめる"
+    },
+    "orderingRule": "In Japanese content, always write 日本語 before English. Example: 日本語と英語で楽しめる即興コメディ, never 英語と日本語で.",
+    "numberFormatting": "Use half-width numbers in Japanese text. Correct: 2,500円（1ドリンク付）. Wrong: ２，５００円（１ドリンク付）.",
+    "punctuation": "Do not use em-dashes in any copy. Use 'to' for number ranges."
+  },
+
+  "shows": {
+    "cadence": "Monthly, Sunday evenings",
+    "ticketPrice": { "amount": 2500, "currency": "JPY", "includes": "First drink free" },
+    "ticketing": { "primary": "Fienta", "secondary": "Peatix" },
+    "linkingRule": "Always link to /shows for ticket information. Never link directly to /tickets, which redirects off-domain and leaks link equity. Email calls to action may use a direct purchase URL.",
+    "lengthMinutes": { "min": 20, "max": 120, "note": "Add a 10 minute break if the show runs longer than 45 minutes." },
+    "requirements": {
+      "required": ["Two microphones, wired or wireless", "Two chairs for the stage", "An audience"],
+      "niceToHave": ["Sound system", "Projector", "Raised stage"],
+      "notAccepted": ["Outdoor shows"]
+    }
+  },
+
+  "venue": {
+    "name": "What the Dickens!",
+    "role": "Home venue since 2010",
+    "address": {
+      "streetAddress": "Roob 6 Bldg 4F, 1-13-3 Ebisunishi",
+      "addressLocality": "Shibuya-ku",
+      "addressRegion": "Tokyo",
+      "postalCode": "150-0021",
+      "addressCountry": "JP",
+      "ja": "ROOB6ビル 4F, 恵比寿西1-13-3, 渋谷区, 東京都 150-0021"
+    },
+    "access": {
+      "en": "3-minute walk from JR Ebisu Station, 1 stop from Shibuya",
+      "ja": "JR恵比寿駅から徒歩3分（渋谷から1駅）"
+    },
+    "napNote": "Ebisunishi has no hyphen. This spelling must match Google Business Profile exactly."
+  },
+
+  "design": {
+    "font": {
+      "family": "Zen Kaku Gothic New",
+      "note": "Modern sans-serif that covers Japanese and English, so both languages look unified across devices."
+    },
+    "colors": [
+      { "name": "Orange",        "hex": "#f09a22", "rgb": [240, 154, 34],  "role": "primary" },
+      { "name": "Yellow Orange", "hex": "#f0c514", "rgb": [240, 197, 20],  "role": "primary" },
+      { "name": "Purple",        "hex": "#8d52a1", "rgb": [141, 82, 161],  "role": "supporting" },
+      { "name": "Dark Purple",   "hex": "#794191", "rgb": [121, 65, 145],  "role": "supporting" },
+      { "name": "Slate",         "hex": "#343433", "rgb": [52, 52, 51],    "role": "supporting" },
+      { "name": "White",         "hex": "#ffffff", "rgb": [255, 255, 255], "role": "supporting" }
+    ],
+    "colorInspiration": "The festive parties of Mardi Gras.",
+    "voice": "Simple but not simplistic, fun but not too funny."
+  },
+
+  "identifiers": {
+    "wikidata": "Q138448067",
+    "googleMapsCid": "6581378796342356083",
+    "schemaOrgId": "https://www.piratesoftokyobay.com/#organization",
+    "schemaOrgType": "PerformingGroup"
+  },
+
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+    "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+    "https://www.wikidata.org/wiki/Q138448067",
+    "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+    "https://maps.google.com/?cid=6581378796342356083",
+    "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+    "https://github.com/Pirates-of-Tokyo-Bay",
+    "https://www.instagram.com/piratestokyo/",
+    "https://x.com/piratestokyo",
+    "https://www.tiktok.com/@piratestokyo",
+    "https://www.facebook.com/TokyoImprov",
+    "https://www.youtube.com/TokyoImprov",
+    "https://www.linkedin.com/company/2854519",
+    "https://medium.com/@piratestokyo",
+    "https://note.com/piratestokyo",
+    "https://www.tripadvisor.com/Attraction_Review-d15739661",
+    "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+    "https://www.reddit.com/r/tokyocomedy/",
+    "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+  ],
+
+  "contact": { "email": "info@japancomedy.com" },
+
+  "assets": {
+    "logoFolder": "https://drive.google.com/drive/folders/0B-9s6txnzeMAfmNzYVpVMHkyQ3hKSWFJbFM1T29GRmxZZnZGd193bFRGZVJlUkxuOXEtVGM",
+    "styleGuide": "https://www.piratesoftokyobay.com/styleguide",
+    "note": "Large binary assets live in Google Drive, not in this repository."
+  }
+}

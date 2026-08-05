@@ -1,0 +1,241 @@
+[
+  {
+    "slug": "/schedule",
+    "seoTitle": "公演スケジュール (東京・恵比寿) | Improv Comedy Schedule",
+    "seoDescription": "【2026年最新】東京・恵比寿（渋谷から1駅）で毎月開催される即興コメディ公演のスケジュール。日本語と英語が飛び交うエキサイティングなステージ。チケットには1ドリンク付き！ Upcoming show dates for Tokyo's premier English & Japanese improv comedy group. Monthly shows in Ebisu (1 stop from Shibuya). 1st drink free!",
+    "schemaFile": "schema/schedule.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Event",
+      "PerformingGroup",
+      "Place"
+    ]
+  },
+  {
+    "slug": "/shows",
+    "seoTitle": "日本語と英語の即興コメディ公演 (恵比寿) | Tokyo Improv Comedy Show",
+    "seoDescription": "【1ドリンク付】恵比寿駅から徒歩3分の日本語と英語の即興コメディ。 Looking for comedy clubs near you? Catch English & Japanese improv live at What the Dickens!, just a 3-minute walk from Ebisu Station (1 stop from Shibuya). 1st drink free!",
+    "schemaFile": "schema/shows.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "EventSeries",
+      "FAQPage",
+      "PerformingGroup",
+      "Place",
+      "VideoObject"
+    ]
+  },
+  {
+    "slug": "/business",
+    "seoTitle": "チームビルディング・コミュニケーション研修 東京 | インプロ体験型企業研修 | Corporate Training",
+    "seoDescription": "東京でのチームビルディング研修ならパイレーツ・オブ・東京湾。即興コメディの手法を活用した企業研修。心理的安全性、コミュニケーション力、対応力を劇的に強化します。日本語・英語対応可能。恵比寿で毎月公演中（1ドリンク付）。English & Japanese improv-based corporate training in Tokyo. We boost team building, psychological safety & communication. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/business.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "FAQPage",
+      "Service"
+    ]
+  },
+  {
+    "slug": "/private-shows",
+    "seoTitle": "出張公演・学校公演・イベント余興 (東京) | Private Shows and Events",
+    "seoDescription": "企業パーティー、学校公演、イベント余興など、ご希望の場所へ出張公演いたします。日本語と英語の即興コメディで会場を盛り上げます。恵比寿で毎月公演中（1ドリンク付）。 Hire us for private parties, school events & corporate entertainment in Tokyo. Custom English & Japanese improv shows. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/private-shows.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Service"
+    ]
+  },
+  {
+    "slug": "/info",
+    "seoTitle": "団体情報 / About Us",
+    "seoDescription": "パイレーツ・オブ・東京湾は日本で唯一、日本語と英語を交えながら台本なしの即興でお笑いを披露しているコメディグループ。毎月公演しているお笑いライブは東京・恵比寿で。Tokyo's only English & Japanese improv comedy group. Monthly shows in Ebisu. (1st drink free!)",
+    "schemaFile": "schema/info.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  },
+  {
+    "slug": "/about",
+    "seoTitle": "団体概要・活動実績 | About Us",
+    "seoDescription": "東京・恵比寿で活動する、日本語と英語の即興コメディ劇団。公演情報や企業研修、メンバー紹介はこちら。毎月公演（1ドリンク付）。 Tokyo's premier English & Japanese improv comedy group. Monthly shows in Ebisu (1st drink free), corporate training & cast bios.",
+    "schemaFile": "schema/about.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  },
+  {
+    "slug": "/live-comedy",
+    "seoTitle": "日本語と英語の即興コメディ (恵比寿) | Japanese and English Improv Show",
+    "seoDescription": "東京・恵比寿で毎月開催！台本なし、打ち合わせなしの即興コメディ。日本語と英語が飛び交うエキサイティングなライブです。1ドリンク付！ Enjoy unscripted comedy in Ebisu (1 stop from Shibuya). A high-energy English & Japanese improv show. 1st drink free!",
+    "schemaFile": "schema/live-comedy.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Service"
+    ]
+  },
+  {
+    "slug": "/audition-info",
+    "seoTitle": "オーディション情報 | Audition Info",
+    "seoDescription": "東京・恵比寿で活動する日本語と英語の即興コメディ劇団「パイレーツ・オブ・東京湾」のオーディション概要。募集要項や参加条件などの詳細はこちら。毎月公演（1ドリンク付）。 Learn about auditioning for Tokyo's premier English & Japanese improv group. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/audition-info.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Event"
+    ]
+  },
+  {
+    "slug": "/improv-university",
+    "seoTitle": "インプロクラス（東京）| Improv University",
+    "seoDescription": "東京でインプロの基本を学ぼう！レベル1〜3のクラスで即興コメディの技術を習得。日本語と英語対応。恵比寿で毎月公演中（1ドリンク付）。Learn improv comedy in Tokyo. Levels 1-3. English & Japanese. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": null
+  },
+  {
+    "slug": "/training",
+    "seoTitle": "企業研修・チームビルディング | Corporate Training & Team Building",
+    "seoDescription": "即興コメディの手法を用いた企業研修。心理的安全性・コミュニケーション力・対応力を劇的に向上。恵比寿で毎月公演中（1ドリンク付）。 Improv-based corporate training in Tokyo. We boost psychological safety, communication & adaptability. English & Japanese. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/training.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Service",
+      "VideoObject"
+    ]
+  },
+  {
+    "slug": "/store",
+    "seoTitle": "NA",
+    "seoDescription": "NA",
+    "schemaFile": null
+  },
+  {
+    "slug": "/linestamps",
+    "seoTitle": "LINEスタンプ・キツネくん | Kitsune LINE Stickers",
+    "seoDescription": "パイレーツ・オブ・東京湾の公式マスコット「キツネくん」がLINEスタンプに！日常会話で使える可愛いデザインです。恵比寿で毎月公演中（1ドリンク付）。Official LINE stickers from Tokyo's English & Japanese improv comedy group. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/linestamps.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "slug": "/giftcard",
+    "seoTitle": "ギフトカード・プレゼント | Gift Cards",
+    "seoDescription": "",
+    "schemaFile": "schema/giftcard.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Product"
+    ]
+  },
+  {
+    "slug": "/donate",
+    "seoTitle": "活動支援 / Donation | Pirates of Tokyo Bay",
+    "seoDescription": "パイレーツ・オブ・東京湾への活動支援・寄付ページ。皆様からのご支援は、今後の公演制作やコミュニティ活動に活用いたします。Support English & Japanese improv comedy in Tokyo. Your donation funds our shows & community programs.",
+    "schemaFile": null
+  },
+  {
+    "slug": "/faq",
+    "seoTitle": "よくあるご質問 / FAQ",
+    "seoDescription": "パイレーツ・オブ・東京湾についてよくあるご質問。チケット購入(1ドリンク無料！)、恵比寿での公演、企業研修について。Find answers about tickets (1st drink free!), our English & Japanese improv shows in Ebisu, and corporate workshops.",
+    "schemaFile": "schema/faq.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  {
+    "slug": "/media",
+    "seoTitle": "メディア・プレスキット / Media and Press Kit",
+    "seoDescription": "パイレーツ・オブ・東京湾のロゴ、高画質写真、活動実績を掲載。取材のお問い合わせはこちら。恵比寿で毎月公演中（1ドリンク付）。Official logos & press photos for Tokyo's English & Japanese improv comedy group. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/media.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  },
+  {
+    "slug": "/blog",
+    "seoTitle": "インプロ・コメディブログ / Improv and Comedy Blog",
+    "seoDescription": "東京・恵比寿の即興コメディシーン、活動報告、メンバー紹介、海外公演の様子などを綴ったブログです。最新のお笑い情報をチェック！毎月公演（1ドリンク付）。 Behind-the-scenes stories, improv tips & updates from the English & Japanese comedy scene in Ebisu, Tokyo. Monthly shows (1st drink free).",
+    "schemaFile": "schema/blog.json",
+    "nodeTypes": [
+      "Blog",
+      "BlogPosting",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "slug": "/sponsors",
+    "seoTitle": "スポンサー募集 / Sponsorship Opportunities | Tokyo Improv",
+    "seoDescription": "「パイレーツ・オブ・東京湾」ではスポンサー様を随時募集しています。日本語と英語のショーを通じて、東京の国際的なオーディエンスにリーチしませんか？恵比寿で毎月公演（1ドリンク付）。 Reach a multicultural audience in Tokyo. Partner with our English & Japanese improv comedy group. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/sponsors.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  },
+  {
+    "slug": "/friends",
+    "seoTitle": "東京の演劇・コメディ仲間たち | Tokyo Theatre & Comedy Friends",
+    "seoDescription": "東京で活躍する演劇・コメディグループをご紹介。恵比寿で毎月開催のEnglish & Japanese即興コメディと一緒に、東京のパフォーミングアーツを楽しもう！1ドリンク付。Meet our friends in Tokyo's performing arts scene — from theatre to stand-up to improv. 1st drink free at our Ebisu shows!",
+    "schemaFile": "schema/friends.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  },
+  {
+    "slug": "/guests",
+    "seoTitle": "ゲストパフォーマー (東京・恵比寿) | Guest Performers",
+    "seoDescription": "2010年から世界中のインプロパフォーマーが恵比寿のステージに参加。English & Japanese improv guest performers from around the world at What the Dickens!, Ebisu. 1st drink free!",
+    "schemaFile": "schema/guests.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  },
+  {
+    "slug": "/contact",
+    "seoTitle": "お問い合わせ・出演依頼 | Contact Us",
+    "seoDescription": "パイレーツ・オブ・東京湾へのお問い合わせ。出演依頼、取材、オーディション等。恵比寿で毎月公演（1ドリンク付）。 Contact Tokyo's English & Japanese improv group. Monthly shows in Ebisu (1st drink free).",
+    "schemaFile": "schema/contact.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "ContactPage"
+    ]
+  },
+  {
+    "slug": "/improv-resources",
+    "seoTitle": "Improv Group Management Resources & Workshops",
+    "seoDescription": "Professional management tools for English & Japanese improv groups. Refined in Ebisu, our kit and workshops help leaders streamline troupe operations. Join us for a show - 1st drink free!",
+    "schemaFile": "schema/improv-resources.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Course",
+      "Product"
+    ]
+  },
+  {
+    "slug": "/framework",
+    "seoTitle": "Improv Group Management Resources & Workshops",
+    "seoDescription": "Professional management tools for English & Japanese improv groups. Refined in Ebisu, our kit and workshops help leaders streamline troupe operations. Join us for a show - 1st drink free!",
+    "schemaFile": "schema/framework.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "Course"
+    ]
+  },
+  {
+    "slug": "/group-management-kit",
+    "seoTitle": "Improv Group Management Resources & Workshops",
+    "seoDescription": "Professional management tools for English & Japanese improv groups. Refined in Ebisu, our kit and workshops help leaders streamline troupe operations. Join us for a show - 1st drink free!",
+    "schemaFile": "schema/group-management-kit.json",
+    "nodeTypes": [
+      "BreadcrumbList",
+      "FAQPage",
+      "Product"
+    ]
+  }
+]

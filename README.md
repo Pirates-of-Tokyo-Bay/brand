@@ -1,32 +1,125 @@
-#INTRODUCING THE PIRATES OF TOKYO BAY STYLE GUIDE
-Since our founding in 2010, the comedy scene in Tokyo (and across Asia) has matured and groups are increasing their level of professionalism both on stage and off stage through their branding and marketing. 
+# Pirates of Tokyo Bay / パイレーツ・オブ・東京湾
 
-To carry us into the future, we’ve created a style guide. This guide will help us grow consistently and quickly without needing oversight for every pixel and will also help us focus more on shows and business training rather than bits and pieces like buttons and list items. It outlines:
+Brand, schema and show data for [Pirates of Tokyo Bay](https://www.piratesoftokyobay.com),
+an English and Japanese improv comedy group in Tokyo. Performing monthly in Ebisu
+since 2010.
 
-- Logo, color & asset usage
-- Voice, tone and style
-- Show components & layout
+**The style guide people read lives at
+[piratesoftokyobay.com/styleguide](https://www.piratesoftokyobay.com/styleguide).**
+This repository holds the things a web page is bad at holding: machine-readable
+facts, versioned structured data, and real production data.
 
-It’s also a living reference tool for show producers, performers, developers, designers, marketers, and others, including our partners and media who want to write about our brand or use our assets.
- 
-#ABOUT PIRATES STYLE
-With our brand, we aim to be simple but not simplistic, fun but not (too) funny.
+---
 
-Simplicity isn’t all that we strive for, however. Because we’re a comedy group that offers public and private shows as well as business workshops and training, we want for our brand and product to reflect the fun, energetic aspect of our service. We do this primarily through color, typography and form.
+## What is here
 
-Pirates' colors are inspired by the festive parties of Mardi Gras, with shades of orange and gold with our supporting colors, dark purple, light purple and warm gray. Our brand’s font, Noto Sans, is a clean font with gentle lines and high legibility across media, digital and print.
+| | |
+|---|---|
+| [`brand.json`](brand.json) | Every brand fact in one machine-readable file. Names, colors, font, venue, ticket price, and the phrasing rules below. Start here if you are building something. |
+| [`press-kit.md`](press-kit.md) | For journalists, venues and partners. MC scripts in both languages, show length, technical needs, venue address, awards, logo links. Copy any of it. |
+| [`schema/`](schema/) | The JSON-LD we inject into Squarespace, one file per page, under version control. |
+| [`shows/`](shows/) | 147 improv formats with language, cast size and how often we have actually played each one. Plus 78 shows of set list history. |
+| [`handbook/`](handbook/) | Cast onboarding manual, including our framework for performing to a mixed-language room. |
+| [`tools/`](tools/) | `assigner.py`, the script that builds our set lists. |
+| [`scripts/`](scripts/) | `audit-schema.py`, which checks the schema files against our house rules. |
 
-Our vision is for everyone to laugh, regardless of their language. From building our brand to expanding our business offerings, this style guide allows for us to create with the same simplicity. We hope that it serves you well, too.
+---
 
-#LOGO USAGE
-The Pirates logotype is custom-designed to embody many of the aspirational qualities of the brand. Highly efficient, the letterforms are based on traditional typefaces and subtly contrasted stroke weight. The "of Tokyo Bay" banner invokes the flags Pirates proudly flew.  If you need logo assets, visit: https://drive.google.com/drive/folders/0B-9s6txnzeMAalhfdDJoRU9kSGs.
+## The rules that matter most
 
-#COLORS
-- #F09A22
-- #F0C514
-- #8D52A1
-- #794191
-- #343433
-- #FFFFFF
+If you take nothing else from this repository, take these. They apply to all
+marketing, social media, press coverage and partner content.
 
-For more details please visit: http://piratesoftokyobay.com/styleguide
+### 1. Never write "bilingual" or「バイリンガル」
+
+Not in titles, descriptions, captions, hashtags or spoken introductions.
+
+The word suggests you need both languages to enjoy the show. You do not. Using it
+turns away exactly the people who would have had the best night.
+
+| Use this | Not this |
+|---|---|
+| English and Japanese improv comedy | Bilingual improv comedy |
+| 日本語と英語で楽しめる即興コメディ | バイリンガル即興コメディ |
+
+Better still, say the quiet part out loud: "No Japanese needed" /
+「英語がわからなくても楽しめる」
+
+### 2. Japanese first
+
+In Japanese content, write 日本語 before English.
+Correct: 日本語と英語で楽しめる即興コメディ
+
+### 3. Half-width numbers in Japanese text
+
+Correct: 2,500円（1ドリンク付）
+Wrong: ２，５００円（１ドリンク付）
+
+### 4. Link to `/shows`, never `/tickets`
+
+`/tickets` redirects off-domain and leaks link equity.
+
+---
+
+## About the style
+
+We aim to be simple but not simplistic, fun but not too funny.
+
+Simplicity is not all we are after. We are a comedy group that plays public and
+private shows and runs corporate workshops, so the brand should carry some of the
+energy of the service. We do that through color, typography and form in design,
+and through show structure on stage.
+
+Our colors come from the festive parties of Mardi Gras: orange and gold up front,
+with dark purple, light purple and warm gray supporting. Our font is **Zen Kaku
+Gothic New**, a modern sans-serif that covers Japanese and English so both read as
+one voice on every device.
+
+Our vision is for everyone to laugh, whatever language they speak.
+
+### Colors
+
+| Color | Hex | RGB |
+|---|---|---|
+| Orange | `#f09a22` | 240, 154, 34 |
+| Yellow Orange | `#f0c514` | 240, 197, 20 |
+| Purple | `#8d52a1` | 141, 82, 161 |
+| Dark Purple | `#794191` | 121, 65, 145 |
+| Slate | `#343433` | 52, 52, 51 |
+| White | `#ffffff` | 255, 255, 255 |
+
+### Logo
+
+Logo files, favicon and app icon are in
+**[Google Drive](https://drive.google.com/drive/folders/0B-9s6txnzeMAfmNzYVpVMHkyQ3hKSWFJbFM1T29GRmxZZnZGd193bFRGZVJlUkxuOXEtVGM)**.
+
+The logotype is custom drawn. The letterforms are based on traditional typefaces
+with subtly contrasted stroke weight, and the "of Tokyo Bay" banner is a nod to
+the flags pirates flew.
+
+Large binary assets stay in Drive. This repository holds text and data.
+
+---
+
+## Come to a show
+
+**What the Dickens!**, Roob 6 Bldg 4F, 1-13-3 Ebisunishi, Shibuya-ku, Tokyo
+150-0021. Three minutes from JR Ebisu Station, one stop from Shibuya.
+
+Monthly on Sunday evenings. 2,500円, first drink free.
+Tickets and dates: [piratesoftokyobay.com/shows](https://www.piratesoftokyobay.com/shows)
+
+🏆 Peatix Community Award 2026, Creative Arts Community, selected from more than
+250 communities nationwide.
+
+---
+
+## Using our stuff
+
+Take the press kit, the MC scripts, the colors and the logo and use them. That is
+what they are for. Follow the four rules above and we are happy.
+
+The show format library and the cast handbook are published for other improv
+groups. If you run a show in a mixed-language city, take what is useful.
+
+Questions: **info@japancomedy.com**

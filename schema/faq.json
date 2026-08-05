@@ -1,0 +1,182 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "publisher": {
+        "@type": "PerformingGroup",
+        "name": "Pirates of Tokyo Bay",
+        "url": "https://www.piratesoftokyobay.com",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Pirates_of_Tokyo_Bay",
+          "https://ja.wikipedia.org/wiki/パイレーツ・オブ・東京湾",
+          "https://www.wikidata.org/wiki/Q138448067",
+          "https://www.crunchbase.com/organization/pirates-of-tokyo-bay",
+          "https://maps.google.com/?cid=6581378796342356083",
+          "https://maps.apple.com/place?place-id=I6FAE78A432E15B60",
+          "https://github.com/Pirates-of-Tokyo-Bay",
+          "https://www.instagram.com/piratestokyo/",
+          "https://x.com/piratestokyo",
+          "https://www.tiktok.com/@piratestokyo",
+          "https://www.facebook.com/TokyoImprov",
+          "https://www.youtube.com/TokyoImprov",
+          "https://www.linkedin.com/company/2854519",
+          "https://medium.com/@piratestokyo",
+          "https://note.com/piratestokyo",
+          "https://www.tripadvisor.com/Attraction_Review-d15739661",
+          "https://www.yelp.com/biz/%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84-%E3%82%AA%E3%83%96-%E6%9D%B1%E4%BA%AC%E6%B9%BE-%E6%9D%B1%E4%BA%AC",
+          "https://www.reddit.com/r/tokyocomedy/",
+          "https://www.meetup.com/pirates-tokyo-improv-comedy/"
+        ],
+        "@id": "https://www.piratesoftokyobay.com/#organization"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "パイレーツ・オブ・東京湾とはなんですか。/ What is Pirates of Tokyo Bay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "関東で唯一、日本語と英語を交えながら即興でショートコントを披露しているコメディグループです。We are the Tokyo area's only improv comedy group performing in both English and Japanese."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "即興コメディとはなんですか？/ What is improv comedy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "即興コメディ（インプロ）とは、台本も打ち合わせも一切ない、完全にその場で作り上げるコメディです。観客の皆様からいただいたお題をもとに、俳優がその場でシーン・歌・キャラクターを即興で演じます。何が起こるかは誰にもわかりません——それがインプロの醍醐味です！Improv comedy is completely unscripted. There are no rehearsed lines, no pre-planned scenes. Performers create everything — scenes, songs, characters — on the spot, based entirely on suggestions from the audience. Nobody knows what will happen next, including the performers. That unpredictability is what makes it so fun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "スタンドアップコメディとどう違うの？/ How is improv comedy different from stand-up comedy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "スタンドアップコメディは、一人のコメディアンがあらかじめ書いたネタを披露するスタイルです。インプロは、複数の出演者がその場で即興でシーンを作り上げ、観客も参加できる双方向のエンターテインメントです。エネルギーと笑いの量は同じくらい——でもインプロは毎回、二度と同じショーはありません。Stand-up comedy is one person performing pre-written material. Improv is a group of performers creating scenes spontaneously in the moment, with the audience directly involved in shaping what happens. The energy and laughs are just as big — but every improv show is completely unique and can never be repeated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "東京で一番のコメディショーはどこですか？/ What is the best comedy show in Tokyo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TripAdvisorのナイトライフ部門で第1位を獲得し、Metropolis Japan、KAYAKトラベルガイドにも掲載されたパイレーツ・オブ・東京湾は、東京で最もユニークなライブエンターテインメントのひとつです。日本語と英語を交えた参加型の即興コメディは、日本人にも外国人にも楽しめる唯一無二の体験です。Pirates of Tokyo Bay holds the #1 Nightlife ranking on TripAdvisor and has been featured in Metropolis Japan and the KAYAK Tokyo Travel Guide. Our English and Japanese interactive improv shows offer a one-of-a-kind live entertainment experience for both locals and visitors — something you won't find anywhere else in Tokyo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "東京観光中に楽しめますか？/ Is Pirates of Tokyo Bay good for tourists visiting Tokyo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "もちろんです！実際、観客の多くは東京を訪れている旅行者の方々です。恵比寿駅から徒歩3分、渋谷から1駅というアクセスの良さ、日本語と英語の両方で楽しめる内容、そして本場のブリティッシュパブの雰囲気——東京旅行の思い出に残る夜になること間違いなしです。Absolutely. Many of our audience members are visitors to Tokyo. The venue is a 3-minute walk from Ebisu Station (1 stop from Shibuya), the show works in both English and Japanese, and the British pub setting makes for a relaxed, welcoming atmosphere. It's consistently one of the top-rated things to do in Tokyo for international visitors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "メンバーは何人いるのでしょうか。/ How many people are in the Pirates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "現在約26名で活動しています。We have 26 members in the group."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "チケットの当日購入はできますか。/ Can I buy tickets at the door?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "できます。ネット予約がお得です（1ドリンク無料！）。https://www.piratesoftokyobay.com/shows Yes. You can buy tickets at the door, or save time by booking online. Every ticket includes your 1st drink free!"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "食事はありますか？/ Is there food?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい！会場はブリティッシュパブなので、フィッシュ＆チップスなどの美味しい料理とお酒が楽しめます。The venue (What the Dickens!) is a British Pub. Fish & Chips, Pies, and Cold Beer available!"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "一人でも大丈夫？子供は？/ Can I come alone? Or with kids?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "お一人様？大歓迎です！すぐに友達ができます。お子様？OKです！10歳以下は無料です。Solo? YES! You'll make friends. Kids? YES! Under 10s are free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ライブの様子を録音・録画・動画にして投稿しようと思うのですが。/ I want to record the show. Is that okay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "申し訳ございませんが、基本的にはお断りしております。メディアまたはインフルエンサーなどの方はinfo@japancomedy.comへご連絡ください。Sorry, we do not allow recording. However, if you are from media or are a content creator, please contact us at info@japancomedy.com. We'd love to work something out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "英語がわからなくても大丈夫？/ Do I need to speak both languages to enjoy the show?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大丈夫です！ジェスチャーや「デタラメ語」を使うので、英語が苦手でも十分楽しめます。安心してお越しください。NOPE. We use pantomime and physical comedy. If you speak one language, you will still laugh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "東京以外ではどこでライブや活動をしていますか。/ Do you perform outside of Tokyo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大阪、福島、石垣、北京、香港、マニラ、シンガポール、クアラルンプール、ハワイ、ニューヨーク、テュービンゲンなどでもライブをしています。Yes! We perform internationally and within Japan, including Osaka, Fukushima, Ishigaki, Beijing, Hong Kong, Manila, Singapore, Kuala Lumpur, New York City, Hawaii, and Tübingen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "企業研修やプライベート公演の依頼は可能ですか？/ Do you offer corporate workshops or private shows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、承っております！企業向けのチームビルディング研修やプライベート公演も可能です。Google、各国大使館などでの実績がございます。info@japancomedy.comまでお気軽にご相談ください。Yes! We specialize in corporate training and private entertainment. We have worked with major clients including Google and various Embassies. Contact us at info@japancomedy.com for a quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どうやったらメンバーになれますか。/ How do I become a member?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "オーディション情報は定期的に更新されます。こちらからご確認ください。https://www.piratesoftokyobay.com/auditions-signup Sign up and find audition information at piratesoftokyobay.com/auditions-signup"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "メンバーは全員、英語と日本語を話しますか？/ Does everyone speak both English and Japanese?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "オーディションに語学テストはないので、メンバーの語学力はバラバラです。Members have varying degrees of skill in English and Japanese. There is no language test to join the Pirates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "パイレーツ・オブ・東京湾はプロ集団ですか。/ Is this a professional group?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ、趣味的グループです。しかし、ステージやワークショップで提供するものは非常にプロフェッショナルだと自負しています。No, we're a hobby group. But we believe the product we put on stage and offer in workshops is extremely professional."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.piratesoftokyobay.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FAQ",
+          "item": "https://www.piratesoftokyobay.com/faq"
+        }
+      ]
+    }
+  ]
+}
