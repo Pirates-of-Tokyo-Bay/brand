@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@page { size: A4; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Zen Kaku Gothic New', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif; /* Brand font first; falls back to Noto where Zen Kaku Gothic New is not installed */
+  background: #F2F0EA;
+  color: #141414;
+  font-size: 8.8pt;
+  line-height: 1.5;
+}
+.page { width: 210mm; height: 297mm; display: flex; flex-direction: column; }
+.header {
+  background: #141414; color: #FFFFFF;
+  padding: 8mm 12mm 6mm 12mm;
+  border-bottom: 2.5mm solid #FC9600;
+}
+.header h1 { font-size: 21pt; font-weight: 900; letter-spacing: 0.5pt; }
+.header .ja-name { font-size: 10pt; color: #FC9600; font-weight: 700; margin-top: 1mm; letter-spacing: 1pt; }
+.header .doc-type { font-size: 8pt; color: #CCCCCC; margin-top: 2mm; }
+.tagline {
+  background: #C0562E; color: #FFFFFF;
+  padding: 2.5mm 12mm; font-size: 10pt; font-weight: 700;
+}
+.body { flex: 1; padding: 5mm 12mm; }
+.cols { display: table; width: 100%; border-spacing: 3mm 0; margin-left: -3mm; margin-right: -3mm; }
+.col { display: table-cell; width: 50%; vertical-align: top; }
+.section { margin-bottom: 4mm; }
+.section h2 {
+  font-size: 9.5pt; font-weight: 900; color: #C0562E;
+  border-bottom: 0.5mm solid #C0562E; padding-bottom: 1mm; margin-bottom: 2mm;
+  letter-spacing: 0.8pt; text-transform: uppercase;
+}
+.section ul { list-style: none; }
+.section li { padding-left: 3.5mm; position: relative; margin-bottom: 1.4mm; }
+.section li::before { content: "▸"; position: absolute; left: 0; color: #FC9600; }
+.section .label { font-weight: 700; }
+.keybox {
+  background: #FFFFFF; border-left: 2mm solid #FC9600;
+  padding: 3mm 3.5mm; border-radius: 0 1mm 1mm 0;
+}
+.keybox h2 { border-bottom: none; margin-bottom: 1.5mm; }
+.keybox p { margin-bottom: 1.2mm; }
+.keybox .phrase { font-weight: 900; }
+.keybox .note { font-size: 7.8pt; color: #444444; margin-top: 1.5mm; }
+.schedule-item { display: flex; margin-bottom: 1.4mm; }
+.schedule-item .date { font-weight: 900; color: #C0562E; min-width: 24mm; }
+.footer {
+  background: #141414; color: #FFFFFF;
+  padding: 4mm 12mm; font-size: 8pt;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.footer .contact-name { font-weight: 900; font-size: 9pt; }
+.footer a { color: #FC9600; text-decoration: none; }
+.footer .right { text-align: right; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <h1>PIRATES OF TOKYO BAY</h1>
+  <div class="ja-name">パイレーツ・オブ・東京湾</div>
+  <div class="doc-type">Media Fact Sheet (August 2026)</div>
+</div>
+
+<div class="tagline">Laughter beyond the language barrier. English and Japanese improv comedy in Tokyo.</div>
+
+<div class="body">
+<div class="cols">
+
+<div class="col">
+
+<div class="section">
+<h2>The Basics</h2>
+<ul>
+<li><span class="label">Founded:</span> 2010 in Tokyo by American Mike Staffa, as the sister group of Osaka's Pirates of the Dotombori</li>
+<li><span class="label">Position:</span> Tokyo's longest-running English and Japanese improv comedy group, now in its 16th year</li>
+<li><span class="label">Style:</span> Unscripted short-form improv. Every scene and song is created on the spot from audience suggestions</li>
+<li><span class="label">The hook:</span> Japanese and English scenes flow through a single show. Pantomime and gibberish keep everything easy to follow, so the show is fun even if you only speak one language</li>
+<li><span class="label">Cast:</span> 21+ volunteer performers from 12+ countries</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Shows</h2>
+<ul>
+<li><span class="label">Monthly show:</span> One Sunday every month (January to November) at What the Dickens!, a British pub in Ebisu</li>
+<li><span class="label">Times:</span> Doors 7:00pm, show 7:30pm</li>
+<li><span class="label">Tickets:</span> ¥2,500 including your 1st drink, via piratesoftokyobay.com/shows</li>
+<li><span class="label">Venue:</span> Roob 6 Bldg 4F, 1-13-3 Ebisunishi, Shibuya-ku, Tokyo 150-0021. A 3-minute walk from Ebisu Station, 1 stop from Shibuya</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Coming Up</h2>
+<div class="schedule-item"><span class="date">Aug 30 (Sun)</span><span>Monthly show @ What the Dickens!, Ebisu</span></div>
+<div class="schedule-item"><span class="date">Sep 20 (Sun)</span><span>Tokyo International Comedy Festival @ Tokyo Comedy Bar, Shibuya</span></div>
+<div class="schedule-item"><span class="date">Sep 27 (Sun)</span><span>Monthly show @ What the Dickens!, Ebisu</span></div>
+<div class="schedule-item"><span class="date">Nov 29 (Sun)</span><span>16th anniversary show @ What the Dickens!, Ebisu</span></div>
+</div>
+
+<div class="section keybox">
+<h2>Style Notes for Writers</h2>
+<p class="phrase">"English and Japanese improv comedy"</p>
+<p class="phrase">"No script, no plot, no safety net"</p>
+<p class="phrase">"Fun even if you only speak one language"</p>
+<p class="phrase">"Built entirely from audience suggestions"</p>
+<p class="note">Please avoid the word "bilingual." It suggests you need both languages to enjoy the show. You don't, and that word turns away the people who would have the best night.</p>
+<p class="note">The venue name is "What the Dickens!" (exclamation mark included).</p>
+</div>
+
+</div>
+
+<div class="col">
+
+<div class="section">
+<h2>Awards &amp; Press</h2>
+<ul>
+<li><span class="label">Peatix Community Award 2026:</span> Creative Arts Community Award, selected from 250+ communities nationwide</li>
+<li><span class="label">TripAdvisor:</span> 5 stars, ranked #4 in Theater &amp; Concerts in Shibuya</li>
+<li><span class="label">Metropolis Japan:</span> "The funniest night out for mixed groups of friends in Tokyo!"</li>
+<li><span class="label">KAYAK Tokyo Guide:</span> Featured in the official travel guide for the Shibuya area</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Milestones</h2>
+<ul>
+<li><span class="label">2012:</span> Featured at the TED@Tokyo talent search; talks and staff seminars at the US Embassy</li>
+<li><span class="label">2013 onward:</span> Charity shows with the Over Cancer Together campaign supporting cancer survivors</li>
+<li><span class="label">On tour:</span> Comedy festivals in Beijing, Hong Kong, Shanghai, Manila, Singapore, Kuala Lumpur, New York, and Hanoi</li>
+<li><span class="label">Corporate training:</span> Clients include Google Japan, the US Embassy, and BizReach. Director Mike Staffa's courses stream on GLOBIS Unlimited, Japan's largest MBA platform</li>
+<li><span class="label">2024:</span> Collaboration show with THE EMPTY STAGE, produced by Yoshimoto Kogyo</li>
+<li><span class="label">2026:</span> 10 new cast members joined from open auditions that drew 75 applicants</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Mission</h2>
+<ul>
+<li>Humor is a powerful bridge between cultures. We build a night out where Japanese locals and international guests laugh together in the same room, something you can only find in Tokyo</li>
+<li>Beyond shows, we run improv-based corporate training and team building focused on psychological safety, active listening, and adaptability</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Interviews &amp; Assets</h2>
+<ul>
+<li>We welcome interviews, filming requests, and article features, in Japanese and English</li>
+<li>Photos, logos, and full press kits: piratesoftokyobay.com/media</li>
+<li>Social: Instagram / TikTok / X @piratestokyo, YouTube: TokyoImprov</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+  <div>
+    <div class="contact-name">Mike Staffa, Founder &amp; Director (日本語・English)</div>
+    <div>staffa@japancomedy.com ・ info@japancomedy.com ・ 080-5920-9802</div>
+  </div>
+  <div class="right">
+    <div><a href="https://www.piratesoftokyobay.com">piratesoftokyobay.com</a></div>
+    <div>Monthly shows at What the Dickens!, Ebisu</div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

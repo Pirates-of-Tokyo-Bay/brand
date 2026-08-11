@@ -17,6 +17,7 @@ facts, versioned structured data, and real production data.
 |---|---|
 | [`brand.json`](brand.json) | Every brand fact in one machine-readable file. Names, colors, font, venue, ticket price, and the phrasing rules below. Start here if you are building something. |
 | [`press-kit.md`](press-kit.md) | For journalists, venues and partners. MC scripts in both languages, show length, technical needs, venue address, awards, logo links. Copy any of it. |
+| [`press/`](press/) | One-page media fact sheets, August 2026: [日本語](press/factsheet-ja.md) / [English](press/factsheet-en.md), with print-ready A4 PDFs. |
 | [`schema/`](schema/) | The JSON-LD we inject into Squarespace, one file per page, under version control. |
 | [`shows/`](shows/) | 147 improv formats with language, cast size and how often we have actually played each one. Plus 78 shows of set list history. |
 | [`handbook/`](handbook/) | Cast onboarding manual, including our framework for performing to a mixed-language room. |
