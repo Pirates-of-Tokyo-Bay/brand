@@ -10,9 +10,9 @@ body {
   background: #F2F0EA;
   color: #141414;
   font-size: 8.6pt;
-  line-height: 1.5;
+  line-height: 1.4; /* 1.5 overflows A4 with real Zen Kaku Gothic New metrics; 1.4 fits one page */
 }
-.page { width: 210mm; height: 297mm; display: flex; flex-direction: column; }
+.page { width: 210mm; height: 297mm; display: flex; flex-direction: column; overflow: hidden; }
 .header {
   background: #141414; color: #FFFFFF;
   padding: 8mm 12mm 6mm 12mm;
@@ -78,7 +78,7 @@ body {
 <h2>基本情報</h2>
 <ul>
 <li><span class="label">設立：</span>2010年、東京。アメリカ出身のマイク・スタッファーが、大阪の即興グループ「パイレーツ・オブ・道頓堀」の姉妹グループとして結成</li>
-<li><span class="label">位置づけ：</span>東京で最も長く続く、日本語と英語の即興コメディ劇団（2026年で16年目）</li>
+<li><span class="label">位置づけ：</span>東京で最も長く続く、日本語と英語の即興コメディ劇団（2026年で16年目、国内外で500回以上公演）</li>
 <li><span class="label">スタイル：</span>台本なしの「ショートフォーム」即興コメディ。観客からいただいたお題をもとに、その場でシーンや歌を作り上げる</li>
 <li><span class="label">特徴：</span>日本語のシーンと英語のシーンが1つのショーの中で交互に登場。パントマイムやデタラメ語（Gibberish）を駆使するため、英語がわからなくても楽しめる</li>
 <li><span class="label">キャスト：</span>12ヶ国以上出身の21名以上。国際色豊かなボランティアキャスト</li>

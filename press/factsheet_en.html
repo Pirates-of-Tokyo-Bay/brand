@@ -10,9 +10,9 @@ body {
   background: #F2F0EA;
   color: #141414;
   font-size: 8.8pt;
-  line-height: 1.5;
+  line-height: 1.4; /* 1.5 overflows A4 with real Zen Kaku Gothic New metrics; 1.4 fits one page */
 }
-.page { width: 210mm; height: 297mm; display: flex; flex-direction: column; }
+.page { width: 210mm; height: 297mm; display: flex; flex-direction: column; overflow: hidden; }
 .header {
   background: #141414; color: #FFFFFF;
   padding: 8mm 12mm 6mm 12mm;
@@ -78,7 +78,7 @@ body {
 <h2>The Basics</h2>
 <ul>
 <li><span class="label">Founded:</span> 2010 in Tokyo by American Mike Staffa, as the sister group of Osaka's Pirates of the Dotombori</li>
-<li><span class="label">Position:</span> Tokyo's longest-running English and Japanese improv comedy group, now in its 16th year</li>
+<li><span class="label">Position:</span> Tokyo's longest-running English and Japanese improv comedy group, now in its 16th year with over 500 shows performed in Japan and overseas</li>
 <li><span class="label">Style:</span> Unscripted short-form improv. Every scene and song is created on the spot from audience suggestions</li>
 <li><span class="label">The hook:</span> Japanese and English scenes flow through a single show. Pantomime and gibberish keep everything easy to follow, so the show is fun even if you only speak one language</li>
 <li><span class="label">Cast:</span> 21+ volunteer performers from 12+ countries</li>

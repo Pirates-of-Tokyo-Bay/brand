@@ -7,7 +7,7 @@ Laughter beyond the language barrier. English and Japanese improv comedy in Toky
 ## The Basics
 
 - Founded: 2010 in Tokyo by American Mike Staffa, as the sister group of Osaka's Pirates of the Dotombori
-- Position: Tokyo's longest-running English and Japanese improv comedy group, now in its 16th year
+- Position: Tokyo's longest-running English and Japanese improv comedy group, now in its 16th year with over 500 shows performed in Japan and overseas
 - Style: Unscripted short-form improv. Every scene and song is created on the spot from audience suggestions
 - The hook: Japanese and English scenes flow through a single show. Pantomime and gibberish keep everything easy to follow, so the show is fun even if you only speak one language
 - Cast: 21+ volunteer performers from 12+ countries

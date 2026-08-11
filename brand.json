@@ -1,7 +1,7 @@
 {
   "$comment": "Canonical machine-readable brand facts for Pirates of Tokyo Bay. This file is the source of truth for how our name, our shows and our language are described anywhere. If a caption, a press article, an AI answer or a partner page disagrees with this file, this file is right.",
-  "version": "1.0.0",
-  "updated": "2026-08-05",
+  "version": "1.1.0",
+  "updated": "2026-08-11",
   "canonicalUrl": "https://www.piratesoftokyobay.com",
 
   "name": {
@@ -53,6 +53,13 @@
   },
 
   "shows": {
+    "totalPerformed": {
+      "claim": "500+",
+      "claimJa": "500回以上",
+      "asOf": "2026-08",
+      "basis": "Numbered main-show series reached #153 in March 2025 (about #168 by August 2026), plus overseas tours, festivals, online shows, the 2013 to 2016 extra monthly English-only and Japanese-only shows, and private and corporate shows from internal records. Replaces the older 450+ figure.",
+      "updateRule": "Recheck once a year. Current cadence adds roughly 15 to 25 shows per year."
+    },
     "cadence": "Monthly, Sunday evenings",
     "ticketPrice": { "amount": 2500, "currency": "JPY", "includes": "First drink free" },
     "ticketing": { "primary": "Fienta", "secondary": "Peatix" },
