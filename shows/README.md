@@ -8,7 +8,8 @@ This is real production data, not a wish list. The frequency column is a
 count of appearances across our recorded shows, so it doubles as a ranking
 of what reliably works in front of a mixed-language audience.
 
-Raw data: [`game-catalogue.csv`](game-catalogue.csv) and [`show-history.csv`](show-history.csv).
+Raw data: [`game-catalogue.csv`](game-catalogue.csv) [`show-history.csv`](show-history.csv) and
+[`show-ledger.csv`](show-ledger.csv).
 
 ## At a glance
 
@@ -277,3 +278,38 @@ publish.
 
 Our roster file is not in this repository at all, for the same reason. See
 [`../tools/README.md`](../tools/README.md).
+
+## Show ledger
+
+[`show-ledger.csv`](show-ledger.csv) is the count behind the "500+ shows" figure
+in [`brand.json`](../brand.json). One row per show or per month of shows, 209
+rows. It records **that** a show happened, not how it did.
+
+| show_type | rows | what it covers |
+|---|---:|---|
+| `main_monthly` | 137 | months with a main monthly show, 2011 to 2026 |
+| `international_or_other` | 44 | overseas tours, festivals and one-off gigs, with the place |
+| `english_only` | 12 | extra English-only monthly shows, 2013 to 2015 |
+| `japanese_only` | 16 | extra Japanese-only monthly shows, 2013 to 2015 |
+
+Deliberately **not** in this file: audience numbers, ticket sales, and revenue.
+The claim it supports is about how many shows have been performed, so counts are
+all it needs, and headcounts are not published.
+
+Two gaps worth knowing. 2021 has no rows because no shows were sold that year.
+Some 2016 months are missing because the source figures were lost to spreadsheet
+errors before this file was made, so absence here does not always mean no show.
+
+## show-history.csv is current to #169
+
+Shows #154 to #169 (2025-04 to 2026-08) were added from the group's working set
+list sheet, so the game, language and type columns are complete. The file now
+covers #76 to #169 with no gaps and no blank rows.
+
+The published schema drops the "Players" column that the working sheet keeps per
+game slot, matching what was already published for #76 to #153.
+
+One date to be aware of: **#159 is recorded as 2025-09-21 here, taken from the
+set list sheet, while the ticketing records have that show on 2025-09-28.** The
+set list sheet was used because it is the source for this file, but the two
+disagree and it has not been resolved.
