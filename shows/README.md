@@ -8,7 +8,8 @@ This is real production data, not a wish list. The frequency column is a
 count of appearances across our recorded shows, so it doubles as a ranking
 of what reliably works in front of a mixed-language audience.
 
-Raw data: [`game-catalogue.csv`](game-catalogue.csv) and [`show-history.csv`](show-history.csv).
+Raw data: [`game-catalogue.csv`](game-catalogue.csv) [`show-history.csv`](show-history.csv) and
+[`attendance-history.csv`](attendance-history.csv).
 
 ## At a glance
 
@@ -277,3 +278,40 @@ publish.
 
 Our roster file is not in this repository at all, for the same reason. See
 [`../tools/README.md`](../tools/README.md).
+
+## Attendance history
+
+[`attendance-history.csv`](attendance-history.csv) is the audience record behind
+the "500+ shows" figure in [`brand.json`](../brand.json). One row per show or
+month, 209 rows, no personal data of any kind.
+
+| show_type | rows | people |
+|---|---:|---:|
+| `main_monthly` | 137 months, 2011 to 2026 | 9,728 |
+| `english_only` and `japanese_only` | 28 extra monthly shows, 2013 to 2015 | 637 |
+| `international_or_other` | 44 tours, festivals and one-off gigs | 8,518 |
+
+Caveats worth knowing before quoting any of it:
+
+- `main_monthly` is heads in the room, counted by the group on the night. It is
+  not a ticket count, and it is deliberately higher than ticketing data: about a
+  third of a typical audience arrives at the door, on a guest list, or through a
+  platform we do not reconcile.
+- A few `international_or_other` rows have a blank audience. Those were marked
+  in the source with a symbol rather than a number and have been left blank
+  rather than guessed.
+- 2021 is genuinely zero. No shows were sold that year.
+- 2016 has eight months where the source figures were lost to spreadsheet errors
+  before this file was made. Those months are absent, not zero.
+
+## A note on the blank rows in show-history.csv
+
+Shows #154 to #169 (2025-04 to 2026-08) were added with their dates and numbers
+but **no game data**. The dates and the numbering are verified against ticketing
+records; the set lists for those nights have not been entered yet.
+
+This means `show-history.csv` is now the correct authority for *when* shows
+happened and *how many* there have been, but the game columns still only cover
+#76 to #153. The play-frequency counts in `game-catalogue.csv` are derived from
+the filled rows only, so they are unaffected by the blank ones. Do not compute
+an average games-per-show across the whole file without filtering.

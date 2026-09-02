@@ -1,0 +1,210 @@
+month,show_type,audience,source
+2011-10,main_monthly,95,group records
+2011-12,main_monthly,89,group records
+2012-01,main_monthly,100,group records
+2012-02,main_monthly,103,group records
+2012-03,international_or_other,150,group records; in HK
+2012-03,main_monthly,79,group records
+2012-04,main_monthly,56,group records
+2012-05,main_monthly,40,group records
+2012-06,main_monthly,65,group records
+2012-07,main_monthly,70,group records
+2012-08,main_monthly,49,group records
+2012-09,main_monthly,55,group records
+2012-10,main_monthly,115,group records
+2012-12,main_monthly,125,group records
+2013-01,main_monthly,112,group records
+2013-02,main_monthly,133,group records
+2013-03,japanese_only,18,group records
+2013-03,main_monthly,108,group records
+2013-04,japanese_only,24,group records
+2013-04,main_monthly,97,group records
+2013-05,english_only,25,group records
+2013-05,japanese_only,19,group records
+2013-05,main_monthly,92,group records
+2013-06,english_only,55,group records
+2013-06,international_or_other,500,group records; in Manila
+2013-06,japanese_only,16,group records
+2013-06,main_monthly,93,group records
+2013-07,japanese_only,9,group records
+2013-07,main_monthly,73,group records
+2013-08,english_only,49,group records
+2013-08,japanese_only,7,group records
+2013-08,main_monthly,79,group records
+2013-09,english_only,27,group records
+2013-09,japanese_only,5,group records
+2013-09,main_monthly,78,group records
+2013-10,japanese_only,13,group records
+2013-10,main_monthly,124,group records
+2013-11,english_only,46,group records
+2013-11,japanese_only,5,group records
+2013-11,main_monthly,109,group records
+2013-12,japanese_only,12,group records
+2014-01,main_monthly,107,group records
+2014-02,international_or_other,200,group records; in Singapore
+2014-02,japanese_only,12,group records
+2014-02,main_monthly,78,group records
+2014-03,international_or_other,200,group records; in HK
+2014-03,main_monthly,73,group records
+2014-04,japanese_only,3,group records
+2014-04,main_monthly,116,group records
+2014-05,main_monthly,131,group records
+2014-06,international_or_other,230,group records; in NYC
+2014-06,japanese_only,29,group records
+2014-06,main_monthly,64,group records
+2014-07,international_or_other,40,group records; Aoba
+2014-07,main_monthly,117,group records
+2014-08,japanese_only,24,group records
+2014-08,main_monthly,107,group records
+2014-09,international_or_other,100,group records; in Shibuya Arts Festival
+2014-09,main_monthly,104,group records
+2014-10,japanese_only,4,group records
+2014-10,main_monthly,89,group records
+2014-11,international_or_other,,group records; SuperDeluxe
+2014-11,main_monthly,182,group records
+2015-01,english_only,43,group records
+2015-01,main_monthly,85,group records
+2015-02,international_or_other,340,group records; Singapore
+2015-02,japanese_only,5,group records
+2015-02,main_monthly,80,group records
+2015-03,english_only,18,group records
+2015-03,international_or_other,170,group records; HK
+2015-03,main_monthly,65,group records
+2015-04,english_only,46,group records
+2015-04,international_or_other,,group records; 3Dudes/PRC
+2015-04,main_monthly,75,group records
+2015-05,main_monthly,56,group records
+2015-06,english_only,31,group records
+2015-06,main_monthly,112,group records
+2015-07,international_or_other,500,group records; Manila
+2015-07,main_monthly,55,group records
+2015-08,english_only,25,group records
+2015-08,main_monthly,52,group records
+2015-09,english_only,44,group records
+2015-09,international_or_other,50,group records; HGPI / TIA
+2015-09,main_monthly,72,group records
+2015-10,english_only,23,group records
+2015-10,main_monthly,72,group records
+2015-11,main_monthly,118,group records
+2016-01,international_or_other,375,group records; Singapore/KL
+2016-01,main_monthly,70,group records
+2016-02,international_or_other,50,group records; Chozenji
+2016-02,main_monthly,82,group records
+2016-03,main_monthly,93,group records
+2016-04,main_monthly,86,group records
+2016-05,main_monthly,88,group records
+2016-06,main_monthly,76,group records
+2016-07,main_monthly,74,group records
+2016-08,international_or_other,13,group records; Yotsuya
+2016-08,main_monthly,60,group records
+2016-09,main_monthly,52,group records
+2016-10,main_monthly,61,group records
+2016-12,international_or_other,25,group records; Bunkyo
+2016-12,main_monthly,111,group records
+2017-01,international_or_other,500,group records; Germany
+2017-01,main_monthly,66,group records
+2017-02,international_or_other,500,group records; Singapore
+2017-02,main_monthly,92,group records
+2017-03,international_or_other,350,group records; Manila
+2017-03,main_monthly,54,group records
+2017-04,international_or_other,200,group records; KL
+2017-04,main_monthly,93,group records
+2017-05,international_or_other,50,group records; TAC
+2017-05,main_monthly,64,group records
+2017-06,international_or_other,20,group records; Mirai no Mori
+2017-06,main_monthly,62,group records
+2017-07,international_or_other,100,group records; AWF + Aoba
+2017-07,main_monthly,60,group records
+2017-08,international_or_other,50,group records; Basser Center
+2017-08,main_monthly,59,group records
+2017-09,main_monthly,67,group records
+2017-10,main_monthly,29,group records
+2017-11,international_or_other,30,group records; Chiba U
+2017-12,international_or_other,70,group records; Transperfect
+2017-12,main_monthly,105,group records
+2018-01,main_monthly,48,group records
+2018-02,main_monthly,58,group records
+2018-03,international_or_other,300,group records; UWCSEA
+2018-03,main_monthly,48,group records
+2018-04,main_monthly,44,group records
+2018-05,main_monthly,65,group records
+2018-06,main_monthly,52,group records
+2018-07,main_monthly,57,group records
+2018-08,main_monthly,84,group records
+2018-10,main_monthly,61,group records
+2018-11,main_monthly,90,group records
+2019-01,main_monthly,84,group records
+2019-02,international_or_other,280,group records; UWCSEA
+2019-02,main_monthly,50,group records
+2019-03,international_or_other,700,group records; Manila
+2019-03,main_monthly,54,group records
+2019-04,main_monthly,43,group records
+2019-05,main_monthly,61,group records
+2019-06,main_monthly,58,group records
+2019-07,main_monthly,73,group records
+2019-08,main_monthly,49,group records
+2019-09,main_monthly,59,group records
+2019-10,main_monthly,24,group records
+2019-11,main_monthly,100,group records
+2020-01,main_monthly,50,group records
+2020-02,international_or_other,,group records; UWCSEA
+2020-02,main_monthly,50,group records
+2020-04,international_or_other,250,group records; Online
+2020-05,international_or_other,500,group records; Online
+2020-06,international_or_other,90,group records; Online
+2020-07,international_or_other,900,group records; Online + KL
+2022-07,main_monthly,60,group records
+2022-08,main_monthly,28,group records
+2022-09,main_monthly,63,group records
+2022-10,main_monthly,70,group records
+2022-11,main_monthly,42,group records
+2023-01,main_monthly,45,group records
+2023-02,main_monthly,59,group records
+2023-03,main_monthly,71,group records
+2023-04,main_monthly,75,group records
+2023-05,international_or_other,100,group records; Hanoi
+2023-05,main_monthly,50,group records
+2023-06,main_monthly,59,group records
+2023-07,main_monthly,35,group records
+2023-08,main_monthly,47,group records
+2023-09,international_or_other,200,group records; Manila
+2023-09,main_monthly,57,group records
+2023-10,main_monthly,74,group records
+2023-11,main_monthly,70,group records
+2024-01,main_monthly,59,group records
+2024-02,main_monthly,73,group records
+2024-03,main_monthly,31,group records
+2024-04,main_monthly,58,group records
+2024-05,international_or_other,30,group records; Bday gig
+2024-05,main_monthly,29,group records
+2024-06,main_monthly,49,group records
+2024-07,main_monthly,44,group records
+2024-08,main_monthly,46,group records
+2024-09,international_or_other,100,group records; Singapore
+2024-09,main_monthly,45,group records
+2024-10,international_or_other,40,group records; TCIF
+2024-10,main_monthly,45,group records
+2024-11,main_monthly,52,group records
+2025-01,main_monthly,48,group records
+2025-02,main_monthly,38,group records
+2025-03,main_monthly,36,group records
+2025-04,main_monthly,51,group records
+2025-05,international_or_other,100,group records; Hanoi
+2025-05,main_monthly,86,group records
+2025-06,main_monthly,88,group records
+2025-07,main_monthly,50,group records
+2025-08,main_monthly,29,group records
+2025-09,international_or_other,40,group records; TCIF
+2025-09,main_monthly,51,group records
+2025-10,main_monthly,26,group records
+2025-11,main_monthly,96,group records
+2026-01,main_monthly,95,group records
+2026-02,main_monthly,54,group records
+2026-03,main_monthly,31,group records
+2026-04,main_monthly,65,group records
+2026-05,main_monthly,86,group records
+2026-06,international_or_other,75,group records; Singapore
+2026-06,main_monthly,107,group records
+2026-07,main_monthly,69,group records
+2026-08,main_monthly,71,group records
+2026-09,international_or_other,,group records; TCIF
