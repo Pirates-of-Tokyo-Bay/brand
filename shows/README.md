@@ -304,14 +304,16 @@ Caveats worth knowing before quoting any of it:
 - 2016 has eight months where the source figures were lost to spreadsheet errors
   before this file was made. Those months are absent, not zero.
 
-## A note on the blank rows in show-history.csv
+## show-history.csv is current to #169
 
-Shows #154 to #169 (2025-04 to 2026-08) were added with their dates and numbers
-but **no game data**. The dates and the numbering are verified against ticketing
-records; the set lists for those nights have not been entered yet.
+Shows #154 to #169 (2025-04 to 2026-08) were added from the group's working set
+list sheet, so the game, language and type columns are complete. The file now
+covers #76 to #169 with no gaps and no blank rows.
 
-This means `show-history.csv` is now the correct authority for *when* shows
-happened and *how many* there have been, but the game columns still only cover
-#76 to #153. The play-frequency counts in `game-catalogue.csv` are derived from
-the filled rows only, so they are unaffected by the blank ones. Do not compute
-an average games-per-show across the whole file without filtering.
+The published schema drops the "Players" column that the working sheet keeps per
+game slot, matching what was already published for #76 to #153.
+
+One date to be aware of: **#159 is recorded as 2025-09-21 here, taken from the
+set list sheet, while the ticketing records have that show on 2025-09-28.** The
+set list sheet was used because it is the source for this file, but the two
+disagree and it has not been resolved.
