@@ -9,7 +9,7 @@ count of appearances across our recorded shows, so it doubles as a ranking
 of what reliably works in front of a mixed-language audience.
 
 Raw data: [`game-catalogue.csv`](game-catalogue.csv) [`show-history.csv`](show-history.csv) and
-[`attendance-history.csv`](attendance-history.csv).
+[`show-ledger.csv`](show-ledger.csv).
 
 ## At a glance
 
@@ -279,30 +279,26 @@ publish.
 Our roster file is not in this repository at all, for the same reason. See
 [`../tools/README.md`](../tools/README.md).
 
-## Attendance history
+## Show ledger
 
-[`attendance-history.csv`](attendance-history.csv) is the audience record behind
-the "500+ shows" figure in [`brand.json`](../brand.json). One row per show or
-month, 209 rows, no personal data of any kind.
+[`show-ledger.csv`](show-ledger.csv) is the count behind the "500+ shows" figure
+in [`brand.json`](../brand.json). One row per show or per month of shows, 209
+rows. It records **that** a show happened, not how it did.
 
-| show_type | rows | people |
-|---|---:|---:|
-| `main_monthly` | 137 months, 2011 to 2026 | 9,728 |
-| `english_only` and `japanese_only` | 28 extra monthly shows, 2013 to 2015 | 637 |
-| `international_or_other` | 44 tours, festivals and one-off gigs | 8,518 |
+| show_type | rows | what it covers |
+|---|---:|---|
+| `main_monthly` | 137 | months with a main monthly show, 2011 to 2026 |
+| `international_or_other` | 44 | overseas tours, festivals and one-off gigs, with the place |
+| `english_only` | 12 | extra English-only monthly shows, 2013 to 2015 |
+| `japanese_only` | 16 | extra Japanese-only monthly shows, 2013 to 2015 |
 
-Caveats worth knowing before quoting any of it:
+Deliberately **not** in this file: audience numbers, ticket sales, and revenue.
+The claim it supports is about how many shows have been performed, so counts are
+all it needs, and headcounts are not published.
 
-- `main_monthly` is heads in the room, counted by the group on the night. It is
-  not a ticket count, and it is deliberately higher than ticketing data: about a
-  third of a typical audience arrives at the door, on a guest list, or through a
-  platform we do not reconcile.
-- A few `international_or_other` rows have a blank audience. Those were marked
-  in the source with a symbol rather than a number and have been left blank
-  rather than guessed.
-- 2021 is genuinely zero. No shows were sold that year.
-- 2016 has eight months where the source figures were lost to spreadsheet errors
-  before this file was made. Those months are absent, not zero.
+Two gaps worth knowing. 2021 has no rows because no shows were sold that year.
+Some 2016 months are missing because the source figures were lost to spreadsheet
+errors before this file was made, so absence here does not always mean no show.
 
 ## show-history.csv is current to #169
 

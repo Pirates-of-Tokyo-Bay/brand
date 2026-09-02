@@ -57,7 +57,7 @@
       "claim": "500+",
       "claimJa": "500回以上",
       "asOf": "2026-08",
-      "basis": "Numbered main-show series reached #169 on 2026-08-30, verified against ticketing records (#153 was 2025-03-30; 16 consecutive monthly shows since, with no December 2025 show). Plus 44 overseas tour, festival and one-off gigs and 28 extra English-only and Japanese-only monthly shows from 2013 to 2015, both itemised in shows/attendance-history.csv. Plus online shows and private and corporate shows from internal records, which are not yet itemised. Replaces the older 450+ figure.",
+      "basis": "Numbered main-show series reached #169 on 2026-08-30, verified against ticketing records (#153 was 2025-03-30; 16 consecutive monthly shows since, with no December 2025 show). Plus 44 overseas tour, festival and one-off gigs and 28 extra English-only and Japanese-only monthly shows from 2013 to 2015, both itemised in shows/show-ledger.csv. Plus online shows and private and corporate shows from internal records, which are not yet itemised. Replaces the older 450+ figure.",
       "updateRule": "Recheck once a year. Current cadence adds roughly 15 to 25 shows per year. The numbered series can be recounted from shows/show-history.csv, which is now current to 2026-08."
     },
     "cadence": "Monthly, Sunday evenings",
